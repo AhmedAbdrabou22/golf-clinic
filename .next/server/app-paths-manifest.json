@@ -1,0 +1,10 @@
+{
+  "/(dashboard)/patients/page": "app/(dashboard)/patients/page.js",
+  "/(dashboard)/patients/[id]/page": "app/(dashboard)/patients/[id]/page.js",
+  "/(dashboard)/cashbox/page": "app/(dashboard)/cashbox/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(dashboard)/doctors/page": "app/(dashboard)/doctors/page.js",
+  "/(dashboard)/departments-services/page": "app/(dashboard)/departments-services/page.js",
+  "/(dashboard)/follow-ups/page": "app/(dashboard)/follow-ups/page.js",
+  "/(dashboard)/reports/doctors/page": "app/(dashboard)/reports/doctors/page.js"
+}
