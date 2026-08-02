@@ -176,6 +176,15 @@ export interface Service {
   created_at: string;
 }
 
+// export interface Doctor {
+//   id: string;
+//   name: string;
+//   department_id: string;
+//   phone: string | null;
+//   commission_percentage: number;
+//   employment_type: EmploymentType;
+//   created_at: string;
+// }
 export interface Doctor {
   id: string;
   name: string;
@@ -183,6 +192,7 @@ export interface Doctor {
   phone: string | null;
   commission_percentage: number;
   employment_type: EmploymentType;
+  monthly_target: number | null;
   created_at: string;
 }
 
@@ -193,6 +203,22 @@ export interface DoctorSalary {
   hourly_rate: number | null;
   working_hours: number | null;
   effective_from: string;
+  created_at: string;
+}
+
+export interface DoctorServiceCommission {
+  id: string;
+
+  doctor_id: string;
+
+  service_category_id: string;
+
+  commission_percentage: number;
+
+  target_amount: number | null;
+
+  target_commission_percentage: number | null;
+
   created_at: string;
 }
 

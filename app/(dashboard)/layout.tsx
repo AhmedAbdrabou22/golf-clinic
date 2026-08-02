@@ -1,5 +1,14 @@
 import Link from "next/link";
-import { Users, LayoutDashboard, Stethoscope, Wallet, Boxes } from "lucide-react";
+import {
+  Users,
+  LayoutDashboard,
+  Stethoscope,
+  Wallet,
+  Boxes,
+  Contact,
+  Pill,
+  Syringe,
+} from "lucide-react";
 import { SignOutButton } from "@/components/auth/SignOutButton";
 
 const NAV_ITEMS = [
@@ -7,9 +16,11 @@ const NAV_ITEMS = [
   { href: "/patients", label: "المرضى", icon: Users },
   { href: "/doctors", label: "الأطباء", icon: Stethoscope },
   { href: "/departments-services", label: "الأقسام والخدمات", icon: Boxes },
-    { href: "/reports/doctors", label: "تقرير الاطباء ", icon: Boxes },
-        { href: "/follow-ups", label: "متابعات اليوم", icon: Boxes },
-
+  { href: "/reports/doctors", label: "تقرير الاطباء ", icon: Boxes },
+  { href: "/follow-ups", label: "متابعات اليوم", icon: Boxes },
+  { href: "/staff", label: "رواتب العمال", icon: Contact },
+  { href: "/medications", label: "الأدوية", icon: Pill },
+  { href: "/meso-products", label: "منتجات الميزو", icon: Syringe },
   { href: "/cashbox", label: "الكاش", icon: Wallet },
 ];
 
