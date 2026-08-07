@@ -1,7 +1,7 @@
 {
   "/(dashboard)/departments-services/page": "app/(dashboard)/departments-services/page.js",
-  "/(dashboard)/medications/page": "app/(dashboard)/medications/page.js",
   "/(dashboard)/staff/page": "app/(dashboard)/staff/page.js",
   "/(dashboard)/cashbox/page": "app/(dashboard)/cashbox/page.js",
-  "/(dashboard)/meso-products/page": "app/(dashboard)/meso-products/page.js"
+  "/(dashboard)/meso-products/page": "app/(dashboard)/meso-products/page.js",
+  "/(dashboard)/medications/page": "app/(dashboard)/medications/page.js"
 }
