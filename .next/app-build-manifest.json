@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/login/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/login/page.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -21,15 +21,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/layout.js"
     ],
-    "/(dashboard)/doctors/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/doctors/page.js"
-    ],
     "/(dashboard)/patients/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/patients/page.js"
+    ],
+    "/(dashboard)/cashbox/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/cashbox/page.js"
     ],
     "/(dashboard)/staff/page": [
       "static/chunks/webpack.js",
@@ -46,20 +46,35 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/meso-products/page.js"
     ],
-    "/(dashboard)/follow-ups/page": [
+    "/(dashboard)/patients/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/follow-ups/page.js"
+      "static/chunks/app/(dashboard)/patients/[id]/page.js"
+    ],
+    "/(dashboard)/departments-services/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/departments-services/page.js"
+    ],
+    "/(dashboard)/doctors/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/doctors/page.js"
     ],
     "/(dashboard)/reports/doctors/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/reports/doctors/page.js"
     ],
-    "/(dashboard)/departments-services/page": [
+    "/(dashboard)/follow-ups/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/departments-services/page.js"
+      "static/chunks/app/(dashboard)/follow-ups/page.js"
+    ],
+    "/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/login/page.js"
     ]
   }
 }

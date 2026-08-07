@@ -1,11 +1,7 @@
 {
+  "/(dashboard)/departments-services/page": "app/(dashboard)/departments-services/page.js",
   "/(dashboard)/medications/page": "app/(dashboard)/medications/page.js",
   "/(dashboard)/staff/page": "app/(dashboard)/staff/page.js",
-  "/(dashboard)/meso-products/page": "app/(dashboard)/meso-products/page.js",
-  "/(dashboard)/doctors/page": "app/(dashboard)/doctors/page.js",
-  "/(dashboard)/follow-ups/page": "app/(dashboard)/follow-ups/page.js",
-  "/(dashboard)/reports/doctors/page": "app/(dashboard)/reports/doctors/page.js",
-  "/(dashboard)/departments-services/page": "app/(dashboard)/departments-services/page.js",
-  "/(dashboard)/patients/page": "app/(dashboard)/patients/page.js",
-  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js"
+  "/(dashboard)/cashbox/page": "app/(dashboard)/cashbox/page.js",
+  "/(dashboard)/meso-products/page": "app/(dashboard)/meso-products/page.js"
 }

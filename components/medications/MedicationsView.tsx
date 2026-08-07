@@ -120,7 +120,7 @@ export function MedicationsView() {
           </CardContent>
         </Card>
 
-        <CommissionRecipientsCard />
+        {/* <CommissionRecipientsCard /> */}
       </div>
 
       <Card>
